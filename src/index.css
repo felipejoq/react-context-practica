@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 20px 0 20px;
+    text-align: center;
+    color: #43a047;
+}
+
+.image-card {
+  object-fit: cover;
+}
+
+.heart-like-dislike {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.bg-green {
+    background-color: #43a047;
+}
